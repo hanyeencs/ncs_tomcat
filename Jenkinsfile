@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         ROOT_PATH  =  "/Users/d1348903/Downloads/apache-tomcat-9.0.65"
-        APP_PATH   =  "$ROOT_PATH/webapps"
+        APP_PATH   =  "$ROOT_PATH/webapps"  
         TEMP_DIR   =  "${env.WORKSPACE}/web-thymeleaf-war"
     }
     stages {
